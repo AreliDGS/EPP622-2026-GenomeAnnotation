@@ -1,0 +1,3 @@
+Sample	HiFiasm	fastp
+HiFiasm	0.25.0-r726	
+fastp		1.4.0

@@ -1,0 +1,9 @@
+[M::main] Version: 0.4-r214-dirty
+[M::main] CMD: gfatools gfa2fa dirofilaria_hic_asm.hic.hap1.p_ctg.gfa
+[M::main] Real time: 0.308 sec; CPU: 0.309 sec
+[M::main] Version: 0.4-r214-dirty
+[M::main] CMD: gfatools gfa2fa dirofilaria_hic_asm.hic.hap2.p_ctg.gfa
+[M::main] Real time: 0.286 sec; CPU: 0.270 sec
+[M::main] Version: 0.4-r214-dirty
+[M::main] CMD: gfatools gfa2fa dirofilaria_hic_asm.hic.p_ctg.gfa
+[M::main] Real time: 0.475 sec; CPU: 0.363 sec

@@ -1,0 +1,5 @@
+nohup: ignoring input
+2026-11-08 01:40:09 URL:https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR329/044/SRR32971244/SRR32971244_1.fastq.gz [15848175357/15848175357] -> "SRR32971244_1.fastq.gz" [1]
+] -> "SRR32971244_1.fastq.gz" [14]
+2026-11-08 00:30:21 URL:https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/053/925/115/GCA_053925115.1_ASM5392511v1/GCA_053925115.1_ASM5392511v1_genomic.fna.gz [28527748/28527748] -> "GCA_053925115.1_ASM5392511v1_genomic.fna.gz" [1]
+2026-11-08 00:30:21 URL:https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/053/925/115/GCA_053925115.1_ASM5392511v1/md5checksums.txt [3267/3267] -> "md5checksums.txt" [1]

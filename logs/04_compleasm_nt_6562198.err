@@ -1,0 +1,60 @@
+[M::mp_ntseq_read@0.448*0.48] read 94103083 bases in 71 contigs
+[M::mp_idx_build@0.449*0.48] 735256 blocks
+[M::mp_idx_build@0.725*4.05] collected syncmers
+[M::mp_idx_build@1.058*3.09] 30638292 kmer-block pairs
+[M::mp_mapopt_set_max_intron] set max intron size to 34923
+[M::mp_idx_print_stat] 1597372 distinct k-mers; mean occ of infrequent k-mers: 19.18; 0 frequent k-mers accounting for 0 occurrences
+[M::worker_pipeline::6.319*10.23] mapped 1294 sequences
+[M::worker_pipeline::10.818*10.94] mapped 1993 sequences
+[M::worker_pipeline::15.909*11.17] mapped 2429 sequences
+[M::worker_pipeline::20.802*11.27] mapped 2873 sequences
+[M::worker_pipeline::25.343*11.39] mapped 3402 sequences
+[M::worker_pipeline::29.663*11.44] mapped 3921 sequences
+[M::worker_pipeline::34.117*11.51] mapped 4517 sequences
+[M::worker_pipeline::38.563*11.56] mapped 5206 sequences
+[M::worker_pipeline::43.510*11.60] mapped 6260 sequences
+[M::worker_pipeline::48.643*11.63] mapped 7979 sequences
+[M::worker_pipeline::53.609*11.65] mapped 12116 sequences
+[M::main] Version: 0.18-r281
+[M::main] CMD: /nfs/home/agonza84/.conda/envs/compleasm/bin/miniprot --trans -u -I --outs=0.95 -t 12 --gff /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.fasta /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12/refseq_db.faa.gz
+[M::main] Real time: 53.615 sec; CPU: 624.322 sec; Peak RSS: 1.147 GB
+[M::mp_ntseq_read@0.248*0.74] read 78186461 bases in 45 contigs
+[M::mp_idx_build@0.248*0.74] 610876 blocks
+[M::mp_idx_build@0.492*4.90] collected syncmers
+[M::mp_idx_build@0.771*3.49] 25126724 kmer-block pairs
+[M::mp_mapopt_set_max_intron] set max intron size to 31833
+[M::mp_idx_print_stat] 1511687 distinct k-mers; mean occ of infrequent k-mers: 16.62; 0 frequent k-mers accounting for 0 occurrences
+[M::worker_pipeline::5.566*10.62] mapped 1294 sequences
+[M::worker_pipeline::10.376*11.20] mapped 1993 sequences
+[M::worker_pipeline::15.224*11.27] mapped 2429 sequences
+[M::worker_pipeline::19.520*11.42] mapped 2873 sequences
+[M::worker_pipeline::24.078*11.52] mapped 3402 sequences
+[M::worker_pipeline::28.243*11.57] mapped 3921 sequences
+[M::worker_pipeline::32.523*11.62] mapped 4517 sequences
+[M::worker_pipeline::36.690*11.65] mapped 5206 sequences
+[M::worker_pipeline::41.356*11.68] mapped 6260 sequences
+[M::worker_pipeline::46.215*11.69] mapped 7979 sequences
+[M::worker_pipeline::50.729*11.70] mapped 12116 sequences
+[M::main] Version: 0.18-r281
+[M::main] CMD: /nfs/home/agonza84/.conda/envs/compleasm/bin/miniprot --trans -u -I --outs=0.95 -t 12 --gff /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.fasta /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12/refseq_db.faa.gz
+[M::main] Real time: 50.735 sec; CPU: 593.426 sec; Peak RSS: 1.141 GB
+[M::mp_ntseq_read@0.354*0.60] read 94056743 bases in 84 contigs
+[M::mp_idx_build@0.354*0.60] 734900 blocks
+[M::mp_idx_build@0.806*3.85] collected syncmers
+[M::mp_idx_build@1.063*3.16] 30515804 kmer-block pairs
+[M::mp_mapopt_set_max_intron] set max intron size to 34914
+[M::mp_idx_print_stat] 1593178 distinct k-mers; mean occ of infrequent k-mers: 19.15; 0 frequent k-mers accounting for 0 occurrences
+[M::worker_pipeline::6.459*10.39] mapped 1294 sequences
+[M::worker_pipeline::11.062*11.01] mapped 1993 sequences
+[M::worker_pipeline::16.033*11.09] mapped 2429 sequences
+[M::worker_pipeline::20.532*11.19] mapped 2873 sequences
+[M::worker_pipeline::24.946*11.32] mapped 3402 sequences
+[M::worker_pipeline::29.378*11.39] mapped 3921 sequences
+[M::worker_pipeline::33.588*11.46] mapped 4517 sequences
+[M::worker_pipeline::38.080*11.52] mapped 5206 sequences
+[M::worker_pipeline::43.062*11.56] mapped 6260 sequences
+[M::worker_pipeline::48.107*11.61] mapped 7979 sequences
+[M::worker_pipeline::53.062*11.62] mapped 12116 sequences
+[M::main] Version: 0.18-r281
+[M::main] CMD: /nfs/home/agonza84/.conda/envs/compleasm/bin/miniprot --trans -u -I --outs=0.95 -t 12 --gff /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/reference/dirofilaria_reference_GCA_053925115.1.fna /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12/refseq_db.faa.gz
+[M::main] Real time: 53.068 sec; CPU: 616.554 sec; Peak RSS: 1.046 GB

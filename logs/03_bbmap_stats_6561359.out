@@ -1,0 +1,12 @@
+=== CONTIGUITY STATISTICS WITH BBMAP (stats.sh) ===
+Started: Sun Nov  8 01:58:23 EST 2026
+
+/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.fasta -> dirofilaria_hic_asm.hic.hap1.p_ctg.stats.txt
+/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.fasta -> dirofilaria_hic_asm.hic.hap2.p_ctg.stats.txt
+/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/reference/dirofilaria_reference_GCA_053925115.1.fna -> dirofilaria_reference_GCA_053925115.1.stats.txt
+n_scaffolds  n_contigs  scaf_bp   contig_bp  gap_pct  scaf_N50  scaf_L50  ctg_N50  ctg_L50   scaf_N90  scaf_L90  ctg_N90  ctg_L90  scaf_max  ctg_max   scaf_n_gt50K  scaf_pct_gt50K  gc_avg   gc_std   filename
+71           71         94103083  94103083   0.000    4         12988493  4        12988493  9         4162936   9        4162936  15650796  15650796  35            99.156          0.27947  0.03994  /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.fasta
+45           45         78186461  78186461   0.000    3         12792222  3        12792222  8         2090691   8        2090691  15444122  15444122  31            99.506          0.27502  0.04336  /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.fasta
+84           152        94056743  94049943   0.007    3         15667105  12       2561908   5         15025590  47       500000   27526700  10318552  12            97.443          0.27781  0.03918  /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/reference/dirofilaria_reference_GCA_053925115.1.fna
+
+Completed: Sun Nov  8 01:58:53 EST 2026

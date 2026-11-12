@@ -1,0 +1,30 @@
+=== ANNOTATION STATISTICS (AGAT) AND SUMMARY TABLES ===
+Started: Sun Nov  8 08:41:57 EST 2026
+
+
+ ------------------------------------------------------------------------------
+|   Another GFF Analysis Toolkit (AGAT) - Version: v1.7.0                      |
+|   https://github.com/NBISweden/AGAT                                          |
+|   National Bioinformatics Infrastructure Sweden (NBIS) - www.nbis.se         |
+ ------------------------------------------------------------------------------
+Using standard /lustre/isaac24/scratch/agonza84/.conda/envs/agat/lib/perl5/site_perl/auto/share/dist/AGAT/feature_levels.yaml file
+File /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/07_summary/dirofilaria_hic_asm.hic.hap1.p_ctg.agat_stats.txt already exist.
+| Category | Nucleotide: hap1 | Nucleotide: hap2 | Nucleotide: published reference | Protein: Helixer hap1 |
+|---|---|---|---|---|
+| Complete (S + D) | 98.99% | 86.24% | 99.50% | 91.27% |
+| Single-copy (S) | 98.32% (586) | 85.40% (509) | 96.31% (574) | 80.03% (477) |
+| Duplicated (D) | 0.67% (4) | 0.84% (5) | 3.19% (19) | 11.24% (67) |
+| Fragmented (F) | 0.00% (0) | 0.67% (4) | 0.17% (1) | 6.88% (41) |
+| Incomplete (I) | 0.00% (0) | 0.00% (0) | 0.00% (0) | – |
+| Missing (M) | 1.01% (6) | 13.09% (78) | 0.34% (2) | 1.85% (11) |
+| Total BUSCOs (N) | 596 | 596 | 596 | 596 |
+
+| Metric | AGAT (hap1) | awk check (hap1) | Published (Campos et al. 2025) |
+|---|---|---|---|
+| Protein-coding genes | 11666 | 11666 | 11,852 |
+| Transcripts (mRNA) | 11666 | 11666 | 14,247 |
+| Mean gene length (bp) | 4889 | 4889.2 | 4,447 |
+| Mean exons per gene | 11.2 | 11.23 | 9.4 |
+| Single-exon genes | 371 | – | not reported |
+
+Completed: Sun Nov  8 08:42:11 EST 2026

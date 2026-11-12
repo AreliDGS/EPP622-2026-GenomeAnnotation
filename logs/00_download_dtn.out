@@ -1,0 +1,19 @@
+=== DOWNLOADING RAW DATA FOR DIROFILARIA IMMITIS (BioProject PRJNA1245491) ===
+Started: Sat Nov  7 22:35:30 EST 2026
+
+--> 1. Downloading PacBio HiFi reads (SRR32971245)
+--> 2. Downloading Hi-C reads, read 1 (SRR32971244_1)
+--> 2. Downloading Hi-C reads, read 2 (SRR32971244_2)
+--> 3. Verifying MD5 checksums
+SRR32971245.fastq.gz: OK
+SRR32971244_1.fastq.gz: OK
+SRR32971244_2.fastq.gz: OK
+--> 4. Downloading published reference assembly (GCA_053925115.1)
+GCA_053925115.1_ASM5392511v1_genomic.fna.gz: OK
+--> 5.Final files
+-rw------- 1 agonza84 isaac2846  15G Oct  9  2025 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/raw_data/SRR32971244_1.fastq.gz
+-rw------- 1 agonza84 isaac2846  15G Oct  9  2025 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/raw_data/SRR32971244_2.fastq.gz
+-rw------- 1 agonza84 isaac2846 3.6G Oct  8  2025 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/raw_data/SRR32971245.fastq.gz
+-rw------- 1 agonza84 isaac2846  91M Nov  8 01:41 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/reference/dirofilaria_reference_GCA_053925115.1.fna
+
+Completed: Sun Nov  8 01:41:24 EST 2026

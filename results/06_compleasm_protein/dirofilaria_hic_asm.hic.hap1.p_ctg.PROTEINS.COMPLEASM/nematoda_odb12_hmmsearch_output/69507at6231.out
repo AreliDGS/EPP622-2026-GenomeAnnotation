@@ -1,0 +1,34 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Dirofilaria_immitis_h1tg000005l_000151.1 -            576 69507                -            354  1.4e-201  668.3   2.3   1   1  2.1e-204  1.8e-201  668.0   2.3     1   352     1   357     1   359 0.96 -
+Dirofilaria_immitis_h1tg000005l_000591.1 -            644 69507                -            354   7.4e-83  277.9   0.2   1   1   1.4e-85   1.2e-82  277.2   0.2    25   326   244   550   232   559 0.90 -
+Dirofilaria_immitis_h1tg000002l_001584.1 -           1285 69507                -            354   9.3e-73  244.6   1.8   1   1   1.6e-75   1.3e-72  244.1   1.8     6   325    28   353    22   364 0.91 -
+Dirofilaria_immitis_h1tg000001l_001097.1 -           2457 69507                -            354   3.9e-58  196.5   0.8   1   2     2e-09   1.7e-06   26.7   0.1    24    71    78   125    65   132 0.95 -
+Dirofilaria_immitis_h1tg000001l_001097.1 -           2457 69507                -            354   3.9e-58  196.5   0.8   2   2   2.9e-52   2.4e-49  167.6   0.1    64   337   151   428   147   441 0.86 -
+Dirofilaria_immitis_h1tg000001l_000465.1 -            568 69507                -            354   2.9e-41  141.1   7.4   1   1   3.5e-44   2.9e-41  141.1   7.4     4   345     3   349     1   359 0.86 -
+Dirofilaria_immitis_h1tg000001l_000461.1 -            729 69507                -            354   9.8e-36  122.9   8.8   1   3     5e-22   4.2e-19   68.2   1.5     5   107    56   158    53   169 0.90 -
+Dirofilaria_immitis_h1tg000001l_000461.1 -            729 69507                -            354   9.8e-36  122.9   8.8   2   3   1.7e-17   1.4e-14   53.2   0.1   131   204   212   285   200   293 0.92 -
+Dirofilaria_immitis_h1tg000001l_000461.1 -            729 69507                -            354   9.8e-36  122.9   8.8   3   3      0.01       8.3    4.7   0.1   262   342   382   471   369   481 0.63 -
+Dirofilaria_immitis_h1tg000006l_000491.1 -            672 69507                -            354   4.7e-33  114.0   2.2   1   1   1.1e-35   8.9e-33  113.1   2.2     5   252    11   278     8   371 0.78 -
+Dirofilaria_immitis_h1tg000004l_000161.1 -           1383 69507                -            354   2.1e-18   65.9   0.4   1   1   4.7e-21   3.9e-18   65.0   0.4    45   221    90   280    53   333 0.82 -
+Dirofilaria_immitis_h1tg000003l_000355.1 -           1835 69507                -            354   3.1e-18   65.3   1.9   1   2   4.5e-19   3.7e-16   58.5   1.2     8   185   687   883   681   887 0.83 -
+Dirofilaria_immitis_h1tg000003l_000355.1 -           1835 69507                -            354   3.1e-18   65.3   1.9   2   2    0.0087       7.3    4.9   0.0   189   295   942  1050   937  1063 0.65 -
+Dirofilaria_immitis_h1tg000003l_001815.1 -            389 69507                -            354   1.1e-14   53.6   2.8   1   3   1.8e-09   1.5e-06   26.9   0.3    11   116    17   130    10   157 0.72 -
+Dirofilaria_immitis_h1tg000003l_001815.1 -            389 69507                -            354   1.1e-14   53.6   2.8   2   3   8.5e-07   0.00071   18.1   0.0   159   223   191   255   179   259 0.95 -
+Dirofilaria_immitis_h1tg000003l_001815.1 -            389 69507                -            354   1.1e-14   53.6   2.8   3   3    0.0016       1.4    7.3   0.3   253   287   309   341   297   363 0.76 -
+Dirofilaria_immitis_h1tg000001l_000331.1 -           2768 69507                -            354   2.9e-11   42.4   0.2   1   1   7.2e-14     6e-11   41.3   0.2    60   248   205   403   195   416 0.83 -
+Dirofilaria_immitis_h1tg000004l_000570.1 -           1098 69507                -            354   2.1e-05   23.1   0.0   1   1   7.1e-08   5.9e-05   21.6   0.0    72   248   193   382   168   388 0.79 -
+Dirofilaria_immitis_h1tg000001l_000971.1 -            992 69507                -            354    0.0094   14.4   0.2   1   1   2.1e-05     0.017   13.5   0.2    77   142    92   160    74   168 0.80 -
+Dirofilaria_immitis_h1tg000004l_000699.1 -            688 69507                -            354     0.044   12.2   0.6   1   2   0.00036       0.3    9.5   0.2    93   169   282   359   263   365 0.84 -
+Dirofilaria_immitis_h1tg000004l_000699.1 -            688 69507                -            354     0.044   12.2   0.6   2   2      0.24     2e+02    0.2   0.0   161   197   379   417   376   422 0.80 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12/hmms/69507at6231.hmm
+# Target file:     /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein/dirofilaria_hic_asm.hic.hap1.p_ctg.PROTEINS.fasta
+# Option settings: /nfs/home/agonza84/.conda/envs/compleasm/bin/hmmsearch --domtblout /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein/dirofilaria_hic_asm.hic.hap1.p_ctg.PROTEINS.COMPLEASM/nematoda_odb12_hmmsearch_output/69507at6231.out --cpu 1 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12/hmms/69507at6231.hmm /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein/dirofilaria_hic_asm.hic.hap1.p_ctg.PROTEINS.fasta 
+# Current dir:     /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein
+# Date:            Sun Nov  8 03:47:50 2026
+# [ok]

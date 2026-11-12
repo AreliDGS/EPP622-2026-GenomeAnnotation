@@ -1,0 +1,4186 @@
+2026-11-08 03:11:40.154130: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 03:11:43.432400: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 03:11:54.830606: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/usr/local/lib/python3.8/dist-packages/tensorflow_addons/utils/tfa_eol_msg.py:23: UserWarning: 
+
+TensorFlow Addons (TFA) has ended development and introduction of new features.
+TFA has entered a minimal maintenance and release mode until a planned end of life in May 2024.
+Please modify downstream libraries to take dependencies from other repositories in our TensorFlow community (e.g. Keras, Keras-CV, and Keras-NLP). 
+
+For more information see: https://github.com/tensorflow/addons/issues/2807 
+
+  warnings.warn(
+Ignoring the following unexpected models in /nfs/home/agonza84/.local/share/Helixer/models:[].
+You can set --model-filepath in Helixer.py if you wish to use these.
+2026-11-08 03:12:37.226681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1639] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 31134 MB memory:  -> device: 0, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:3b:00.0, compute capability: 7.0
+2026-11-08 03:12:45.153011: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\017TensorDataset:0"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:12:47.721864: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:432] Loaded cuDNN version 8900
+2026-11-08 03:12:50.389853: I tensorflow/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2026-11-08 03:12:50.390912: I tensorflow/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2026-11-08 03:12:50.390950: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:109] Couldn't get ptxas version : FAILED_PRECONDITION: Couldn't get ptxas/nvlink version string: INTERNAL: Couldn't invoke ptxas --version
+2026-11-08 03:12:50.391368: I tensorflow/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2026-11-08 03:12:50.391440: W tensorflow/compiler/xla/stream_executor/gpu/redzone_allocator.cc:318] INTERNAL: Failed to launch ptxas
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+2026-11-08 03:13:03.635369: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\017TensorDataset:8"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:14.713210: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:16"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:20.356222: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:24"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:26.065692: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:32"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:31.618826: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:40"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 9
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:35.697309: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:48"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:41.195461: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:56"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:46.926609: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:64"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:52.604996: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:72"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:13:58.275174: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:80"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:03.862133: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:88"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 9
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:06.846618: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\020TensorDataset:96"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:12.399315: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:104"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:18.119570: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:112"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:23.798286: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:120"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:29.487697: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:128"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 25
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:37.249971: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:136"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:42.747436: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:144"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:48.498104: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:152"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:54.160567: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:160"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:14:59.822071: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:168"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 25
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:04.966721: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:176"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:10.574161: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:184"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:16.184906: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:192"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:21.809767: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:200"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:27.285613: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:208"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 11
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:31.450965: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:216"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:36.953780: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:224"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:42.595051: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:232"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:48.217988: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:240"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:53.748253: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:248"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 11
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:15:56.775136: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:256"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:02.381591: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:264"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:08.105105: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:272"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:13.728278: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:280"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:19.397156: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:288"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 27
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:27.564532: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:296"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:33.123292: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:304"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:38.839601: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:312"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:44.509934: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:320"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:50.245047: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:328"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 27
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:16:55.609560: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:336"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:01.186701: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:344"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:06.716512: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:352"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 13
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:11.359675: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:360"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:16.830780: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:368"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:22.347789: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:376"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 13
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:25.803269: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:384"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:31.253183: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:392"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 13
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:34.603647: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:400"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:40.112274: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:408"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 23
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:47.494911: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:416"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:53.026530: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:424"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:17:58.690848: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:432"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 27
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:04.010585: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:440"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:09.572019: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:448"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:15.231065: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:456"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 27
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:20.518318: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:464"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:26.112517: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:472"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:31.670048: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:480"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 7
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:35.116339: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:488"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:40.671099: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:496"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 31
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:46.190109: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:504"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 9
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:49.116244: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:512"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:54.588505: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:520"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 15
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:18:59.649566: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:528"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 29
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:19:05.198500: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:536"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 26
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:19:13.162102: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:544"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 32
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:19:22.476656: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:552"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 32
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:19:28.486734: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:560"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 32
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:19:34.078908: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:568"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 32
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+
+2026-11-08 03:19:39.691566: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:786] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorDataset/_1"
+op: "TensorDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_FLOAT
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 1
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\021TensorDataset:576"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: 21
+        }
+        dim {
+          size: 213840
+        }
+        dim {
+          size: 4
+        }
+      }
+    }
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_FLOAT
+        }
+      }
+    }
+  }
+}
+

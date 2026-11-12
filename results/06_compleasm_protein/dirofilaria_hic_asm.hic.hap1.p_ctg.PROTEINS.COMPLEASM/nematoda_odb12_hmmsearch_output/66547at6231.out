@@ -1,0 +1,27 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Dirofilaria_immitis_h1tg000008l_000796.1 -            329 66547                -            241  2.7e-126  419.3   1.3   1   2  3.9e-125  4.1e-122  405.6   0.0     1   226    61   290    61   301 0.98 -
+Dirofilaria_immitis_h1tg000008l_000796.1 -            329 66547                -            241  2.7e-126  419.3   1.3   2   2   3.3e-05     0.035   12.9   0.4   221   241   308   328   298   328 0.88 -
+Dirofilaria_immitis_h1tg000003l_000296.1 -            281 66547                -            241   3.8e-32  111.0   0.0   1   1   4.5e-35   4.8e-32  110.7   0.0     2   196    22   228    21   251 0.85 -
+Dirofilaria_immitis_h1tg000001l_000517.1 -            302 66547                -            241   1.3e-30  106.0   0.0   1   1   1.2e-31   1.3e-28   99.5   0.0     2   153     2   175     1   239 0.82 -
+Dirofilaria_immitis_h1tg000006l_000311.1 -            599 66547                -            241   1.3e-25   89.6   0.0   1   2   6.6e-12     7e-09   34.8   0.0    15    77    97   156    92   162 0.93 -
+Dirofilaria_immitis_h1tg000006l_000311.1 -            599 66547                -            241   1.3e-25   89.6   0.0   2   2   2.9e-17   3.1e-14   52.4   0.0    79   186   184   295   175   322 0.88 -
+Dirofilaria_immitis_h1tg000002l_000983.1 -            381 66547                -            241     1e-24   86.6   0.2   1   1   1.8e-27   1.9e-24   85.8   0.2     2   183     7   207     6   239 0.86 -
+Dirofilaria_immitis_h1tg000002l_001441.1 -            392 66547                -            241   5.8e-14   51.5   0.0   1   1   4.4e-15   4.7e-12   45.2   0.0     3   185    73   288    71   314 0.75 -
+Dirofilaria_immitis_h1tg000002l_001599.1 -            263 66547                -            241     4e-06   25.8   0.0   1   1   6.6e-09     7e-06   25.0   0.0    27   149    57   178    52   190 0.82 -
+Dirofilaria_immitis_h1tg000004l_001389.1 -            252 66547                -            241   5.6e-06   25.3   0.0   1   2    0.0045       4.8    5.9   0.0    19    49    11    41     6    49 0.88 -
+Dirofilaria_immitis_h1tg000004l_001389.1 -            252 66547                -            241   5.6e-06   25.3   0.0   2   2   1.2e-06    0.0013   17.6   0.0    52   158    65   167    55   225 0.81 -
+Dirofilaria_immitis_h1tg000004l_001425.1 -            278 66547                -            241   8.2e-05   21.5   0.1   1   1     1e-07   0.00011   21.1   0.1    35   191    72   225    68   245 0.81 -
+Dirofilaria_immitis_h1tg000009l_000031.1 -            212 66547                -            241     0.021   13.7   0.0   1   1   2.9e-05      0.03   13.1   0.0    26   112     8   102     5   118 0.75 -
+Dirofilaria_immitis_h1tg000002l_000968.1 -            308 66547                -            241      0.11   11.3   0.0   1   1   0.00015      0.16   10.8   0.0    26    83    53   111    49   190 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12/hmms/66547at6231.hmm
+# Target file:     /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein/dirofilaria_hic_asm.hic.hap1.p_ctg.PROTEINS.fasta
+# Option settings: /nfs/home/agonza84/.conda/envs/compleasm/bin/hmmsearch --domtblout /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein/dirofilaria_hic_asm.hic.hap1.p_ctg.PROTEINS.COMPLEASM/nematoda_odb12_hmmsearch_output/66547at6231.out --cpu 1 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12/hmms/66547at6231.hmm /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein/dirofilaria_hic_asm.hic.hap1.p_ctg.PROTEINS.fasta 
+# Current dir:     /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/06_compleasm_protein
+# Date:            Sun Nov  8 03:47:51 2026
+# [ok]

@@ -1,0 +1,33 @@
+Trying to detect adapter sequence at read start
+Not detected
+Trying to detect adapter sequence at read end
+Not detected
+
+Before filtering:
+total reads: 772280
+total bases: 6814523386
+Q20 bases: 6765594099(99.282%)
+Q30 bases: 6703054244(98.3642%)
+
+After filtering:
+total reads: 772280
+total bases: 6814523386
+Q20 bases: 6765594099(99.282%)
+Q30 bases: 6703054244(98.3642%)
+
+Filtering result:
+reads passed filter: 772280
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+reads with internal adapters/chimeric signals: 0
+bases removed by chimera splitting: 0
+segments produced by chimera splitting: 0
+
+JSON report: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/01_fastplong/dirofilaria_hifi_report.json
+HTML report: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/01_fastplong/dirofilaria_hifi_report.html
+
+fastplong --in raw_data/SRR32971245.fastq.gz --out /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/01_fastplong/dirofilaria_hifi_clean.fastq --disable_quality_filtering --thread 16 --json /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/01_fastplong/dirofilaria_hifi_report.json --html /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/01_fastplong/dirofilaria_hifi_report.html 
+fastplong v0.7.1, time used: 29 seconds

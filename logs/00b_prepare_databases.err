@@ -1,0 +1,49 @@
+nohup: ignoring input
+INFO:    Converting OCI blobs to SIF format
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/11/07 12:27:17  warn xattr{etc/gshadow} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:27:17  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/etc/gshadow} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:27:47  warn xattr{var/log/apt/term.log} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:27:47  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/var/log/apt/term.log} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:27:49  warn xattr{var/log/apt/term.log} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:27:49  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/var/log/apt/term.log} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:28:13  warn xattr{var/log/apt/term.log} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:28:13  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/var/log/apt/term.log} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:28:25  warn xattr{var/log/apt/term.log} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:28:25  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/var/log/apt/term.log} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:28:25  warn xattr{etc/gshadow} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:28:25  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/etc/gshadow} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:28:26  warn xattr{var/lib/apt/lists/auxfiles} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:28:26  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/var/lib/apt/lists/auxfiles} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:28:26  warn xattr{etc/gshadow} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:28:26  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/etc/gshadow} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:29:38  warn xattr{var/cache/apt/archives/partial} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:29:38  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/var/cache/apt/archives/partial} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:32:20  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:32:20  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:32:20  warn xattr{usr/local/lib/python3.8} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:32:20  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/usr/local/lib/python3.8} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:34:56  warn xattr{usr/local/lib/python3.8} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:34:56  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/usr/local/lib/python3.8} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:34:57  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:34:57  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:34:57  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:34:57  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:34:57  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:34:57  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:34:57  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:34:57  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:35:06  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:35:06  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:35:06  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:35:06  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:35:06  warn xattr{home/helixer_user} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2026/11/07 12:35:06  warn xattr{/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/containers/.apptainer_tmp/build-temp-4077965376/rootfs/home/helixer_user} destination filesystem does not support xattrs, further warnings will be suppressed
+2026/11/07 12:35:06  warn rootless{home/helixer_user/Helixer/.git/objects/pack/pack-383282008524b5d90850a9e5994f71782d98d797.idx} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/11/07 12:35:07  warn rootless{home/helixer_user/Helixer/.git/objects/pack/pack-383282008524b5d90850a9e5994f71782d98d797.pack} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/11/07 12:35:07  warn rootless{home/helixer_user/HelixerPost/.git/objects/pack/pack-3f41e60de738273edc9bdc65d2b5b5eb4603acfe.idx} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/11/07 12:35:07  warn rootless{home/helixer_user/HelixerPost/.git/objects/pack/pack-3f41e60de738273edc9bdc65d2b5b5eb4603acfe.pack} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating SIF file...

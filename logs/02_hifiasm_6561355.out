@@ -1,0 +1,22 @@
+=== HIFIASM GENOME ASSEMBLY (HiFi + Hi-C) ===
+Started: Sun Nov  8 00:57:52 EST 2026
+
+--> Converting GFA to FASTA with gfatools
+dirofilaria_hic_asm.hic.hap1.p_ctg.gfa -> dirofilaria_hic_asm.hic.hap1.p_ctg.fasta
+dirofilaria_hic_asm.hic.hap2.p_ctg.gfa -> dirofilaria_hic_asm.hic.hap2.p_ctg.fasta
+dirofilaria_hic_asm.hic.p_ctg.gfa -> dirofilaria_hic_asm.hic.p_ctg.fasta
+-rw------- 1 agonza84 isaac2846  92M Nov  8 01:58 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.fasta
+-rw------- 1 agonza84 isaac2846  94M Nov  8 01:57 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.gfa
+-rw------- 1 agonza84 isaac2846 3.5M Nov  8 01:57 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.noseq.gfa
+-rw------- 1 agonza84 isaac2846  76M Nov  8 01:58 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.fasta
+-rw------- 1 agonza84 isaac2846  78M Nov  8 01:57 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.gfa
+-rw------- 1 agonza84 isaac2846 2.9M Nov  8 01:57 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.noseq.gfa
+-rw------- 1 agonza84 isaac2846  92M Nov  8 01:58 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.p_ctg.fasta
+-rw------- 1 agonza84 isaac2846  94M Nov  8 01:46 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.p_ctg.gfa
+-rw------- 1 agonza84 isaac2846 3.5M Nov  8 01:46 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.p_ctg.noseq.gfa
+-rw------- 1 agonza84 isaac2846 202M Nov  8 01:46 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.p_utg.gfa
+-rw------- 1 agonza84 isaac2846 6.4M Nov  8 01:46 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.p_utg.noseq.gfa
+-rw------- 1 agonza84 isaac2846 205M Nov  8 01:46 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.r_utg.gfa
+-rw------- 1 agonza84 isaac2846 6.5M Nov  8 01:46 /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.r_utg.noseq.gfa
+
+Completed: Sun Nov  8 01:58:04 EST 2026

@@ -1,0 +1,10 @@
+=== TRIMMING OF HI-C FASTP ===
+Started: Sun Nov  8 00:48:52 EST 2026
+
+total 31G
+-rw------- 1 agonza84 isaac2846 488K Nov  8 00:57 dirofilaria_hic_fastp.html
+-rw------- 1 agonza84 isaac2846 140K Nov  8 00:57 dirofilaria_hic_fastp.json
+-rw------- 1 agonza84 isaac2846  16G Nov  8 00:57 dirofilaria_hic_trimmed_R1.fastq.gz
+-rw------- 1 agonza84 isaac2846  15G Nov  8 00:57 dirofilaria_hic_trimmed_R2.fastq.gz
+
+Completed: Sun Nov  8 00:57:35 EST 2026

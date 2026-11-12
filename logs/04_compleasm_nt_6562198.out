@@ -1,0 +1,109 @@
+=== ASSEMBLY COMPLETENESS WITH COMPLEASM (NUCLEOTIDE MODE) ===
+Started: Sun Nov  8 08:36:31 EST 2026
+
+compleasm 0.2.10
+compleasm 0.2.10
+--> compleasm run: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.fasta -> dirofilaria_hic_asm.hic.hap1.p_ctg.COMPLEASM
+Searching for miniprot in the path where compleasm.py is located
+Searching for miniprot in the current execution path
+Searching for miniprot in $PATH
+Searching for hmmsearch in the path where compleasm.py is located
+Searching for hmmsearch in the current execution path
+Searching for hmmsearch in $PATH
+miniprot execute command:
+ /nfs/home/agonza84/.conda/envs/compleasm/bin/miniprot
+lineage: nematoda_odb12
+hmmsearch execute command:
+ /nfs/home/agonza84/.conda/envs/compleasm/bin/hmmsearch
+
+S:98.32%, 586
+D:0.67%, 4
+F:0.00%, 0
+I:0.00%, 0
+M:1.01%, 6
+N:596
+
+## Download lineage: 0.03(s)
+## Run miniprot: 53.66(s)
+## Analyze miniprot: 47.92(s)
+## Total runtime: 101.61(s)
+--> compleasm run: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.fasta -> dirofilaria_hic_asm.hic.hap2.p_ctg.COMPLEASM
+Searching for miniprot in the path where compleasm.py is located
+Searching for miniprot in the current execution path
+Searching for miniprot in $PATH
+Searching for hmmsearch in the path where compleasm.py is located
+Searching for hmmsearch in the current execution path
+Searching for hmmsearch in $PATH
+miniprot execute command:
+ /nfs/home/agonza84/.conda/envs/compleasm/bin/miniprot
+lineage: nematoda_odb12
+hmmsearch execute command:
+ /nfs/home/agonza84/.conda/envs/compleasm/bin/hmmsearch
+
+S:85.40%, 509
+D:0.84%, 5
+F:0.67%, 4
+I:0.00%, 0
+M:13.09%, 78
+N:596
+
+## Download lineage: 0.00(s)
+## Run miniprot: 50.75(s)
+## Analyze miniprot: 40.82(s)
+## Total runtime: 91.56(s)
+--> compleasm run: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/reference/dirofilaria_reference_GCA_053925115.1.fna -> dirofilaria_reference_GCA_053925115.1.COMPLEASM
+Searching for miniprot in the path where compleasm.py is located
+Searching for miniprot in the current execution path
+Searching for miniprot in $PATH
+Searching for hmmsearch in the path where compleasm.py is located
+Searching for hmmsearch in the current execution path
+Searching for hmmsearch in $PATH
+miniprot execute command:
+ /nfs/home/agonza84/.conda/envs/compleasm/bin/miniprot
+lineage: nematoda_odb12
+hmmsearch execute command:
+ /nfs/home/agonza84/.conda/envs/compleasm/bin/hmmsearch
+
+S:96.31%, 574
+D:3.19%, 19
+F:0.17%, 1
+I:0.00%, 0
+M:0.34%, 2
+N:596
+
+## Download lineage: 0.00(s)
+## Run miniprot: 53.09(s)
+## Analyze miniprot: 46.10(s)
+## Total runtime: 99.19(s)
+===== /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/04_compleasm_nt/dirofilaria_hic_asm.hic.hap1.p_ctg.COMPLEASM/summary.txt =====
+# compleasm version is: 0.2.10
+# The lineage dataset is: nematoda_odb12 (Creation date: 2026-05-22, number of genomes: 56, number of BUSCOs: 596)
+## lineage: nematoda_odb12
+S:98.32%, 586
+D:0.67%, 4
+F:0.00%, 0
+I:0.00%, 0
+M:1.01%, 6
+N:596
+===== /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/04_compleasm_nt/dirofilaria_hic_asm.hic.hap2.p_ctg.COMPLEASM/summary.txt =====
+# compleasm version is: 0.2.10
+# The lineage dataset is: nematoda_odb12 (Creation date: 2026-05-22, number of genomes: 56, number of BUSCOs: 596)
+## lineage: nematoda_odb12
+S:85.40%, 509
+D:0.84%, 5
+F:0.67%, 4
+I:0.00%, 0
+M:13.09%, 78
+N:596
+===== /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/04_compleasm_nt/dirofilaria_reference_GCA_053925115.1.COMPLEASM/summary.txt =====
+# compleasm version is: 0.2.10
+# The lineage dataset is: nematoda_odb12 (Creation date: 2026-05-22, number of genomes: 56, number of BUSCOs: 596)
+## lineage: nematoda_odb12
+S:96.31%, 574
+D:3.19%, 19
+F:0.17%, 1
+I:0.00%, 0
+M:0.34%, 2
+N:596
+
+Completed: Sun Nov  8 08:41:44 EST 2026

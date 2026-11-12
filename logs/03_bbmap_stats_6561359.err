@@ -1,0 +1,5 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+WARNING: Using incubator modules: jdk.incubator.vector
+WARNING: Using incubator modules: jdk.incubator.vector
+java -ea  --add-modules jdk.incubator.vector -Xmx8g -Xms8g -cp /nfs/home/agonza84/.conda/envs/assembly/opt/bbmap-40.05-0/current/ jgi.AssemblyStatsWrapper format=3 -Xmx8g in=/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap1.p_ctg.fasta,/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/dirofilaria_hic_asm.hic.hap2.p_ctg.fasta,/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/reference/dirofilaria_reference_GCA_053925115.1.fna format=3
+WARNING: Using incubator modules: jdk.incubator.vector

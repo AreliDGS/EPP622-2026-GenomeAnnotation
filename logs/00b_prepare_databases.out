@@ -1,0 +1,99 @@
+=== PREPARING DATABASES AND CONTAINERS ===
+Started: Sat Nov  7 12:25:14 EST 2026
+Node: login2.cn.isaac.utk.edu
+
+--> Step 1: compleasm lineage nematoda_odb12
+compleasm 0.2.10
+Success download from https://busco-data.ezlab.org/v5/data/file_versions.tsv
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/list_of_reference_markers.eukaryota_odb10.2019-12-16.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/list_of_reference_markers.eukaryota_odb10.2019-12-16.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/list_of_reference_markers.eukaryota_odb12.2.2026-05-13.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/list_of_reference_markers.eukaryota_odb12.2.2026-05-13.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/list_of_reference_markers.eukaryota_odb12.2025-01-15.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/list_of_reference_markers.eukaryota_odb12.2025-01-15.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/mapping_taxid-lineage.eukaryota_odb10.2019-12-16.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/mapping_taxid-lineage.eukaryota_odb10.2019-12-16.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/mapping_taxid-lineage.eukaryota_odb12.2.2026-05-13.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/mapping_taxid-lineage.eukaryota_odb12.2.2026-05-13.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/mapping_taxid-lineage.eukaryota_odb12.2025-01-15.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/mapping_taxid-lineage.eukaryota_odb12.2025-01-15.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/mapping_taxids-busco_dataset_name.eukaryota_odb10.2019-12-16.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/mapping_taxids-busco_dataset_name.eukaryota_odb10.2019-12-16.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/mapping_taxids-busco_dataset_name.eukaryota_odb12.2.2026-05-13.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/mapping_taxids-busco_dataset_name.eukaryota_odb12.2.2026-05-13.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/mapping_taxids-busco_dataset_name.eukaryota_odb12.2025-01-15.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/mapping_taxids-busco_dataset_name.eukaryota_odb12.2025-01-15.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/supermatrix.aln.eukaryota_odb10.2019-12-16.faa.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/supermatrix.aln.eukaryota_odb10.2019-12-16.faa
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/supermatrix.aln.eukaryota_odb12.2.2026-05-13.faa.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/supermatrix.aln.eukaryota_odb12.2.2026-05-13.faa
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/supermatrix.aln.eukaryota_odb12.2025-01-15.faa.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/supermatrix.aln.eukaryota_odb12.2025-01-15.faa
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/tree.eukaryota_odb10.2019-12-16.nwk.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/tree.eukaryota_odb10.2019-12-16.nwk
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/tree.eukaryota_odb12.2.2026-05-13.nwk.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/tree.eukaryota_odb12.2.2026-05-13.nwk
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/tree.eukaryota_odb12.2025-01-15.nwk.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/tree.eukaryota_odb12.2025-01-15.nwk
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/tree_metadata.eukaryota_odb10.2019-12-16.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/tree_metadata.eukaryota_odb10.2019-12-16.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/tree_metadata.eukaryota_odb12.2.2026-05-13.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/tree_metadata.eukaryota_odb12.2.2026-05-13.txt
+Success download from https://busco-data.ezlab.org/v5/data/placement_files/tree_metadata.eukaryota_odb12.2025-01-15.txt.tar.gz
+Placement file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/placement_files/tree_metadata.eukaryota_odb12.2025-01-15.txt
+Success download from https://busco-data.ezlab.org/v5/data/lineages/eukaryota_odb12.2026-05-22.tar.gz
+Lineage file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/eukaryota_odb12
+Success download from https://busco-data.ezlab.org/v5/data/lineages/nematoda_odb12.2026-05-22.tar.gz
+Lineage file extraction path: /lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/databases/compleasm_mb/nematoda_odb12
+STEP 1 OK
+total 61M
+drwx--S--- 3 agonza84 isaac2846 4.0K Nov  7 12:26 eukaryota_odb12
+-rw------- 1 agonza84 isaac2846  28M Nov  7 12:26 eukaryota_odb12.2026-05-22.tar.gz
+-rw------- 1 agonza84 isaac2846    0 Nov  7 12:26 eukaryota_odb12.done
+-rw------- 1 agonza84 isaac2846 105K Nov  7 12:25 file_versions.tsv
+-rw------- 1 agonza84 isaac2846    0 Nov  7 12:25 file_versions.tsv.done
+-rw------- 1 agonza84 isaac2846   52 Nov  7 12:25 file_versions.tsv.hash
+drwx--S--- 3 agonza84 isaac2846 4.0K Nov  7 12:26 nematoda_odb12
+-rw------- 1 agonza84 isaac2846  38M Nov  7 12:26 nematoda_odb12.2026-05-22.tar.gz
+-rw------- 1 agonza84 isaac2846    0 Nov  7 12:26 nematoda_odb12.done
+drwx--S--- 2 agonza84 isaac2846 4.0K Nov  7 12:26 placement_files
+-rw------- 1 agonza84 isaac2846    0 Nov  7 12:26 placement_files.done
+
+--> Step 2: compleasm protein --help
+usage: compleasm protein [-h] -p PROTEINS -l LINEAGE -o OUTDIR [-t THREADS]
+                         [-L LIBRARY_PATH] [--odb ODB]
+                         [--hmmsearch_execute_path HMMSEARCH_EXECUTE_PATH]
+
+options:
+  -h, --help            show this help message and exit
+  -p, --proteins PROTEINS
+                        Input protein file
+  -l, --lineage LINEAGE
+                        BUSCO lineage name
+  -o, --outdir OUTDIR   Output analysis folder
+  -t, --threads THREADS
+                        Number of threads to use
+  -L, --library_path LIBRARY_PATH
+                        Folder path to stored lineages.
+  --odb ODB             OrthoDB version, default: odb12
+  --hmmsearch_execute_path HMMSEARCH_EXECUTE_PATH
+                        Path to hmmsearch executable
+STEP 2 DONE
+
+--> Step 3: Helixer container
+STEP 3 OK
+total 2.4G
+-rwx------ 1 agonza84 isaac2846 3.3G Nov  7 12:39 helixer_v0.3.2_cuda_11.8.0-cudnn8.sif
+
+--> Step 4: Helixer invertebrate model
+STEP 4 OK
+/nfs/home/agonza84/.local/share/Helixer/models:
+total 4.0K
+drwx------ 2 agonza84 tug2106   49 Nov  7 12:40 invertebrate
+-rw------- 1 agonza84 tug2106 3.9K Nov  7 12:40 model_list.csv
+
+/nfs/home/agonza84/.local/share/Helixer/models/invertebrate:
+total 35M
+-rw------- 1 agonza84 tug2106 35M Nov  7 12:40 invertebrate_v0.3_m_0100.h5
+
+Completed: Sat Nov  7 12:40:14 EST 2026

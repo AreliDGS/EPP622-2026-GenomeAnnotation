@@ -1,0 +1,9 @@
+=== QUALITY CONTROL OF PACBIO HIFI READS WITH FASTPLONG ===
+Started: Sat Nov  7 11:57:41 EST 2026
+
+total 3.4G
+-rw------- 1 agonza84 isaac2846 3.3G Nov  7 11:58 dirofilaria_hifi_clean.fastq.gz
+-rw------- 1 agonza84 isaac2846  13M Nov  7 11:58 dirofilaria_hifi_report.html
+-rw------- 1 agonza84 isaac2846 5.4M Nov  7 11:58 dirofilaria_hifi_report.json
+
+Completed: Sat Nov  7 11:59:12 EST 2026

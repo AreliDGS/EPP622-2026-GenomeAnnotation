@@ -1,0 +1,9 @@
+# compleasm version is: 0.2.10
+# The lineage dataset is: nematoda_odb12 (Creation date: 2026-05-22, number of genomes: 56, number of BUSCOs: 596)
+## lineage: nematoda_odb12
+S:96.31%, 574
+D:3.19%, 19
+F:0.17%, 1
+I:0.00%, 0
+M:0.34%, 2
+N:596

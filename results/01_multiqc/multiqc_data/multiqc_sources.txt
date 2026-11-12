@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+HiFiasm	all_sections	hifiasm_hgsize94m_nhap2_nweight10_fperturb0.25_nperturb100k	/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/02_assembly/hifiasm_hgsize94m_nhap2_nweight10_fperturb0.25_nperturb100k.log
+fastp	all_sections	SRR32971244	/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/01_fastp_hic/dirofilaria_hic_fastp.json
+fastp	all_sections	dirofilaria_hifi_report	/lustre/isaac24/proj/UTK0505/agonza84/EPP622-2026-GenomeAnnotation/results/01_fastplong/dirofilaria_hifi_report.json

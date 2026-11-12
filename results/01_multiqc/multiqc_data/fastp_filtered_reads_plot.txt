@@ -1,0 +1,3 @@
+Sample	Passed Filter	Low Quality	Too Many N	Low Complexity	Too Short	Too Long
+SRR32971244	397087970.0	4413946.0	35902.0	nan	984012.0	0.0
+dirofilaria_hifi_report	772280.0	0.0	0.0	nan	0.0	0.0
